@@ -1,0 +1,2 @@
+(library
+ (name prog_with_effects))
