@@ -1,6 +1,6 @@
 # Concurrent Programming with Effect Handlers
 
-- [Tutorial](https://github.com/ocaml-multicore/ocaml-effects-tutorial?tab=readme-ov-file)
+- To better understand OCaml effects we will follow this [tutorial](https://github.com/ocaml-multicore/ocaml-effects-tutorial?tab=readme-ov-file).
 
 # Some Definitions
 
