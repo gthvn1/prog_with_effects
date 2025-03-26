@@ -34,7 +34,7 @@ type 'a vlist =
 ```
 
 - **GADT**: Generalized Algebraic Data Type
-    - it carries a data but also a return value so it returns a different types per constructor
+    - it carries a data but also a return value so it returns a different type per constructor
 ```ocaml
 type _ expr =
   | Int: int -> int expr
