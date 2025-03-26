@@ -28,7 +28,7 @@ type expr =
 - **ADT** with polymorphic variant type
 ```ocaml
 type 'a vlist =
-  [`Nil
+  [ `Nil
   | `Cons of 'a * 'a vlist
   ]
 ```
