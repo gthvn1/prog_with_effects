@@ -1,10 +1,10 @@
 # Concurrent Programming with Effect Handlers
 
-- To better understand OCaml effects we will follow this [tutorial](https://github.com/ocaml-multicore/ocaml-effects-tutorial?tab=readme-ov-file).
+- To better understand *OCaml* effects we will follow this [tutorial](https://github.com/ocaml-multicore/ocaml-effects-tutorial?tab=readme-ov-file).
 
 # Some Definitions
 
-- ADT: Algebraic Data Type (aka "tagged union" or "variant type")
+- **ADT**: Algebraic Data Type (aka "tagged union" or "variant type")
     - it as a constructor
     - it carries or not some data
     - all constructor returns the same type
@@ -14,9 +14,9 @@ type expr =
   | Bool of bool
 ```
 
-- ADT with polymorphic variants
-    - unless regular ADT constructors can be shared accross diffent types.
-    - variants are open, we can extend them wihtout modifying the original
+- **ADT** with polymorphic variants
+    - unless regular **ADT** constructors can be shared across different types.
+    - variants are open, we can extend them without modifying the original
     definition.
 ```ocaml
 type expr =
@@ -25,7 +25,7 @@ type expr =
   ]
 ```
 
-- ADT with polymorphic variant type
+- **ADT** with polymorphic variant type
 ```ocaml
 type 'a vlist =
   [`Nil
@@ -33,7 +33,7 @@ type 'a vlist =
   ]
 ```
 
-- GADT: Generalized Algebraic Data Type
+- **GADT**: Generalized Algebraic Data Type
     - it carries a data but also a return value so it returns a different types per constructor
 ```ocaml
 type _ expr =
